@@ -8,7 +8,7 @@ const Entertainment = () => {
 
 	useEffect(() => {
 		getArticles();
-	}, []);
+	});
 
 	useEffect(
 		() => {
